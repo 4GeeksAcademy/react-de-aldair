@@ -4,10 +4,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Card = () => {
   return (
-    <div className="container mt-5">
-      <div className="d-flex justify-content-center flex-wrap gap-4">
-        {/* Card 1 */}
-        <div className="card" style={{ width: '19rem' }}>
+    <div className="container mt-5 ">
+      <div className="d-flex justify-content-center "> 
+        {/* Card 1  flex-wrap gap-4*/}
+        <div className="card col-3 m-2" style={{ width: '19rem' }}>
           <img
             src="https://picsum.photos/id/870/200/300?grayscale&blur=2"
             className="card-img-top"
@@ -21,7 +21,7 @@ const Card = () => {
         </div>
 
         {/* Card 2 */}
-        <div className="card" style={{ width: '19rem' }}>
+        <div className="card col-3 m-2" style={{ width: '19rem' }}>
           <img
             src="https://picsum.photos/seed/picsum/200/300"
             className="card-img-top"
@@ -34,8 +34,8 @@ const Card = () => {
           </div>
         </div>
 
-        {/* Card 3 — formato exacto que indicaste */}
-        <div className="card" style={{ width: '19rem' }}>
+        {/* Card 3  */}
+        <div className="card col-3 m-2" style={{ width: '19rem' }}>
           <img
             src="https://picsum.photos/id/237/200/300"
             className="card-img-top"
@@ -50,8 +50,8 @@ const Card = () => {
           </div>
         </div>
 
-        {/* ✅ Card 4 nueva */}
-        <div className="card" style={{ width: '19rem' }}>
+        {/* ✅ Card 4*/}
+        <div className="card col-3 m-2" style={{ width: '19rem' }}>
           <img
             src="https://picsum.photos/200/300?grayscale"
             className="card-img-top"
